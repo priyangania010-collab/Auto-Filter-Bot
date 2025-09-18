@@ -23,7 +23,7 @@ API_HASH = environ.get('API_HASH', 'd1af246ebbfb198fe438cae67372abf1')
 BOT_TOKEN = environ.get('BOT_TOKEN', '8346082859:AAGjYAf20xQHgzxBT0-Fzo1xJOnWOh0OG74')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1481322134').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/Silicon_Official")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002324418733'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/LuciferCinema')
 
 # Pics 
