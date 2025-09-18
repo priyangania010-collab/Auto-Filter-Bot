@@ -39,9 +39,9 @@ FILES_LIMIT = int(environ.get("FREE_FILES", "3")) #No. of File User Gets In Free
 
 # Database Settings
 
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://pawanivimasha8:20030928@autofilter.jdtmx.mongodb.net/?retryWrites=true&w=majority&appName=AutoFilter")
 FILES_DATABASE_URL = environ.get('FILES_DATABASE_URL', "mongodb+srv://flexbeat616:20030928@vip.tj7x0v1.mongodb.net/?retryWrites=true&w=majority&appName=vip") # For Files
-SECOND_FILES_DATABASE_URL = environ.get('SECOND_FILES_DATABASE_URL', "") # 2nd DB For Files
+SECOND_FILES_DATABASE_URL = environ.get('SECOND_FILES_DATABASE_URL', "mongodb+srv://minideveloper06:nvRrHLViR4j7DALy@db2.q5mql.mongodb.net/?retryWrites=true&w=majority&appName=db2") # 2nd DB For Files
 DATABASE_NAME = environ.get('DATABASE_NAME', "Silicon")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Silicon_Files')
 
